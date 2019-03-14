@@ -35,7 +35,16 @@ Correções que precisam ser aplicadas com urgência também devem ser criadas e
   ```
   
 # Commit
-Se duas correções distintas são realizadas, elas devem ser implementadas em dois commits diferentes. As mensagens de correção de issue devem descrever o que mudou e fazer referência ao número da issue associada à mudança. [Saiba mais sobre este tipo de commit](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention "Saiba mais sobre este tipo de commit")
+
+Cada commit deve ser uma mudança lógica simples. Não faça várias mudanças lógicas em um commit. Por exemplo, se uma alteração corrige um bug e otimiza a performance de uma funcionalidade, o divida em dois commits separados.
+
+Não divida uma mudança lógica simples em vários commits. Por exemplo, a implementação de uma funcionalidade e os testes correspondentes à ela devem estar no mesmo commit.
+
+Commit cedo e frequentemente. Commits pequenos e autônomos são mais fáceis de entender e reverter quando algo dá errado.
+
+Commits devem ser ordenados logicamente. Por exemplo, se commit X depende de uma mudança feita no commit Y, então commit Y deve vir antes do commit X.
+
+[Commits Atomicos](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention "Commits Atomicos")
 
 **Titulo**
 - Deve conter a descrição sucinta da alteração:
