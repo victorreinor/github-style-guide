@@ -58,9 +58,16 @@ Commits devem ser ordenados logicamente. Por exemplo, se commit X depende de uma
 # Organização de Projeto
 1. Crie um **Project** no repositório no formato de kanban-automation
 2. Crie isssues para cada necessidade do software;
-	Cada issue aberta deverá conter uma lista de checkbox com tudo que será necessario para desenvolver aquele módulo. **Segue abaixo o exemplo**
+	Cada issue aberta deverá ser vinculado ao **Project** criado e conter uma lista de checkbox com tudo que será necessario para desenvolver aquele módulo. **Segue abaixo o exemplo**
 	
 	![Exemplo Issue](https://raw.githubusercontent.com/victorreinor/github-style-guide/master/images/Issue%20de%20teste.PNG "Exemplo Issue")
+	Conforme desenvolvido cada checkbox deverá ser marcado pois teremos uma barra de progresso que poderemos ver que estamos evoluindo perante aquela issue. 
+	
+	Na tela de projeto teremos o controle de como as coisas estão. Tudo que está listado (issues abertas vinculadas ao projeto), o andamento de cada uma issue e o que já foi finalizado
+	![Tela de project](https://raw.githubusercontent.com/victorreinor/github-style-guide/master/images/Tela%20de%20project.PNG "Tela de project")
+	
+	O intuito desta organização e fazer as pessoas pensar no projeto antes de começar ou seja, listar tudo que precisa desde conversa com cliente até deploy do software, sendo assim teremos tudo que precisamos saber antes de começar desenvolver o software e quebrado em pequenas partes, assim facilitando o desenvolvimento. 
+	Cada vez que tickamos o checkbox diminuimos um na nossa lista e podemos ver este progresso nas propria issues ou na aba de **Projects**(que dá uma visão geral), isso faz com que nosso cerebro libere doses de **dopamina** e sinta aquele sensação de prazer e recompensa por estar vendo o seu progresso.
 
 ###### [Fonte de ajuda 1](https://github.com/Openredu/Openredu/wiki/Guia-de-boas-práticas-de-desenvolvimento "Fonte de ajuda 1")
 ###### [Fonte de ajuda 2](https://github.com/guylhermetabosa/git-style-guide/blob/master/README.md "Fonte de ajuda 2")
