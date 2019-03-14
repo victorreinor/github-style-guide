@@ -54,3 +54,6 @@ Commits devem ser ordenados logicamente. Por exemplo, se commit X depende de uma
 - O sumário (ie. a primeira linha da mensagem) deve ser descritivo ainda que sucinto. O ideal é que não seja maior que 50 caracteres. Deve ser escrito com letra maiúscula e no modo imperativo. Não deve terminar com um ponto, uma vez que é efetivamente o título do title: "Corrige" e não "corrigiu", "corrigindo" ou “correção”;
 
 - Quando estiver escrevendo uma mensagem do commit, pense sobre o que você precisaria saber olhando para o commit daqui um ano.
+
+###### [Fonte de ajuda 1](https://github.com/guylhermetabosa/git-style-guide/blob/master/README.md "Fonte de ajuda 1")
+###### [Fonte de ajuda 2](https://github.com/guylhermetabosa/git-style-guide/blob/master/README.md "Fonte de ajuda 2")
