@@ -2,7 +2,7 @@
 Guia de estilo para git/github
 
 1. [Branches](#branches "Branches")
-2. Commit
+2. [Commit](#commit "Commit")
 
 # Branches
 Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
