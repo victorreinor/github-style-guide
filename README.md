@@ -55,5 +55,12 @@ Commits devem ser ordenados logicamente. Por exemplo, se commit X depende de uma
 
 - Quando estiver escrevendo uma mensagem do commit, pense sobre o que você precisaria saber olhando para o commit daqui um ano.
 
+# Organização de Projeto
+1. Crie um **Project** no repositório no formato de kanban-automation
+2. Crie isssues para cada necessidade do software;
+	Cada issue aberta deverá conter uma lista de checkbox com tudo que será necessario para desenvolver aquele módulo. **Segue abaixo o exemplo**
+	
+	![Exemplo Issue](https://raw.githubusercontent.com/victorreinor/github-style-guide/master/images/Issue%20de%20teste.PNG "Exemplo Issue")
+
 ###### [Fonte de ajuda 1](https://github.com/Openredu/Openredu/wiki/Guia-de-boas-práticas-de-desenvolvimento "Fonte de ajuda 1")
 ###### [Fonte de ajuda 2](https://github.com/guylhermetabosa/git-style-guide/blob/master/README.md "Fonte de ajuda 2")
