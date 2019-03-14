@@ -55,5 +55,5 @@ Commits devem ser ordenados logicamente. Por exemplo, se commit X depende de uma
 
 - Quando estiver escrevendo uma mensagem do commit, pense sobre o que você precisaria saber olhando para o commit daqui um ano.
 
-###### [Fonte de ajuda 1](https://github.com/guylhermetabosa/git-style-guide/blob/master/README.md "Fonte de ajuda 1")
+###### [Fonte de ajuda 1](https://github.com/Openredu/Openredu/wiki/Guia-de-boas-práticas-de-desenvolvimento "Fonte de ajuda 1")
 ###### [Fonte de ajuda 2](https://github.com/guylhermetabosa/git-style-guide/blob/master/README.md "Fonte de ajuda 2")
