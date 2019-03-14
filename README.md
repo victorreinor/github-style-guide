@@ -17,7 +17,7 @@ Branch master é o default para desenvolvimento, sendo assim durante o ciclo de 
 ### Features
 Toda funcionalidade deve ser implementada em um branch próprio, ramificado a partir do master e integrado de volta quando concluída a funcionalidade. Uma vez que o pull request for aceito o branch será apagado.
 
-** Exemplo **
+**Exemplo**
   ```shell
   # bom
   $ git checkout -b feature/crud-cliente
@@ -29,7 +29,7 @@ Toda funcionalidade deve ser implementada em um branch próprio, ramificado a pa
 ### Hotfix
 Correções que precisam ser aplicadas com urgência também devem ser criadas em um branch próprio a partir do master, entretanto será possível incorporar as modificações em quaisquer branches que forem necessários.
 
-** Exemplo **
+**Exemplo**
   ```shell
   # bom
   $ git checkout -b hotfix/inserir-pedido
