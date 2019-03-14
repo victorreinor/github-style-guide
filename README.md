@@ -2,10 +2,6 @@
 Guia de estilo para git/github
 
 1. [Branch](#branch "Branch")
-2. Em desenvolvimento
-3. Em desenvolvimento
-3. Em desenvolvimento
-3. Em desenvolvimento
 
 # Branch
 Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
