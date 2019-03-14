@@ -5,7 +5,8 @@ Guia de estilo para git/github
 2. [Commit](#commit "Commit")
 
 # Branches
-Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
+- Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
+- Use traços para separar palavras.
 
 ## Master
 Branch master é o default para desenvolvimento, sendo assim durante o ciclo de desenvolvimento de novas releases toda alteração deve partir(checkout) e retornar(merge) deste branch. Tornando este um branch atualizado.
@@ -46,9 +47,10 @@ Commits devem ser ordenados logicamente. Por exemplo, se commit X depende de uma
 
 [Commits Atomicos](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention "Commits Atomicos")
 
-**Titulo**
-- Deve conter a descrição sucinta da alteração:
-- No maximo 50 caracteres;
-- Use sempre o imperativo: "Corrige" e não "corrigiu", "corrigindo" ou “correção”;
-- Inicie a frase com letra maiúscula;
-- Sem ponto (.) No final.
+**Mensagens**
+- Use o editor, não o terminal, quando estiver escrevendo a mensagem do commit:
+	Committar do terminal encoraja uma ideia de ter que encaixar tudo em uma única linha, o que geralmente resulta em commits não informativos, mensagens ambíguas.
+
+- O sumário (ie. a primeira linha da mensagem) deve ser descritivo ainda que sucinto. O ideal é que não seja maior que 50 caracteres. Deve ser escrito com letra maiúscula e no modo imperativo. Não deve terminar com um ponto, uma vez que é efetivamente o título do title: "Corrige" e não "corrigiu", "corrigindo" ou “correção”;
+
+- Quando estiver escrevendo uma mensagem do commit, pense sobre o que você precisaria saber olhando para o commit daqui um ano.
