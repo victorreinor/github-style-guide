@@ -1,9 +1,9 @@
 # Guia de estilo git/github
 Guia de estilo para git/github
 
-1. [Branch](#branch "Branch")
+1. [Branches](#branches "Branches")
 
-# Branch
+# Branches
 Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
 
 ## Master
