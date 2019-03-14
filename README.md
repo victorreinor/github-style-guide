@@ -2,7 +2,7 @@
 Guia de estilo para git/github
 
 1. [Branches](#branches "Branches")
-2. [Commit](#commit "Commit")
+2. Commit
 
 # Branches
 Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
@@ -37,6 +37,7 @@ Correções que precisam ser aplicadas com urgência também devem ser criadas e
 # Commit
 Se duas correções distintas são realizadas, elas devem ser implementadas em dois commits diferentes. As mensagens de correção de issue devem descrever o que mudou e fazer referência ao número da issue associada à mudança. [Saiba mais sobre este tipo de commit](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention "Saiba mais sobre este tipo de commit")
 
+**Titulo**
 - Deve conter a descrição sucinta da alteração:
 - No maximo 50 caracteres;
 - Use sempre o imperativo: "Corrige" e não "corrigiu", "corrigindo" ou “correção”;
