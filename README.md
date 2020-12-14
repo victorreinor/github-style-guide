@@ -5,7 +5,7 @@ Guia de estilo para git/github
 2. [Commit](#commit "Commit")
 
 # Branchs
-- Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
+- Escolha nomes *curtos* e *descritivos* para os bramchs e cada um deverá começar com **feature/** ou **hotfix/**
 - Use traços para separar palavras.
 
 ## Master
