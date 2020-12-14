@@ -1,10 +1,10 @@
 # Guia de estilo git/github
 Guia de estilo para git/github
 
-1. [Branches](#branches "Branches")
+1. [Branchs](#branchs "Branchs")
 2. [Commit](#commit "Commit")
 
-# Branches
+# Branchs
 - Escolha nomes *curtos* e *descritivos* para os brachs e cada um deverá começar com **feature/** ou **hotfix/**
 - Use traços para separar palavras.
 
@@ -24,7 +24,7 @@ Toda funcionalidade deve ser implementada em um branch próprio, ramificado a pa
   ```
   
 ## Hotfix
-Correções que precisam ser aplicadas com urgência também devem ser criadas em um branch próprio a partir do master, entretanto será possível incorporar as modificações em quaisquer branches que forem necessários.
+Correções que precisam ser aplicadas com urgência também devem ser criadas em um branch próprio a partir do master, entretanto será possível incorporar as modificações em quaisquer branchs que forem necessários.
 
 **Exemplo**
   ```shell
